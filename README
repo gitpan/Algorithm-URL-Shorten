@@ -1,0 +1,57 @@
+Algorithm-URL-Shorten
+
+Algorithm::URL::Shorten generates short codes used to map and represent
+longer URLs.
+
+The codes generated with Algorithm::URL::Shorten are unique for every URL,
+so that every time it is used on the same URL, it will generate the same
+codes.
+
+The short strings are alphanumeric ASCII ([a-z], [A-Z], and [0-9]) for a
+total of 62 characters, which may be mapped in, depending on the lenght,
+62 ^ n codes (where n is the actual size of the strings generated).
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Algorithm::URL::Shorten
+
+You can also look for information at:
+
+    GitHub
+        http://github.com/AlexBio/Algorithm-URL-Shorten
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Algorithm-URL-Shorten
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Algorithm-URL-Shorten
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Algorithm-URL-Shorten
+
+    Search CPAN
+        http://search.cpan.org/dist/Algorithm-URL-Shorten/
+
+
+LICENSE AND COPYRIGHT
+
+Copyright (C) 2010 Alessandro Ghedini
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
+
