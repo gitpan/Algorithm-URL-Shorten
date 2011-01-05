@@ -2,25 +2,25 @@
 9999-99-99 99:99:99 +0000 HEAD
 ==============================
 
-  commit ed8b6166d4426c774fb0ee26b2efe86a49c25141
+  commit 02e3442d2873f9081d0a58e72269cf80d16a03d0
   Author: Alessandro Ghedini <al3xbio@gmail.com>
   Date:   Wed Jan 5 14:59:57 2011 +0100
   
     bump version
 
-  commit daac8bde9ec50e2fae9c7a21c99fa23294b12046
+  commit 2f06a2b73de50bbdc2947171243a21bc5a30d9ce
   Author: Alessandro Ghedini <al3xbio@gmail.com>
   Date:   Wed Jan 5 14:53:45 2011 +0100
   
     update test and pod
 
-  commit 1fb010a3b8d356a4f7def12e24ecd37ae1c40e18
+  commit 008eca5c76e50047150f0460fbbaab51b3f6e99a
   Author: Alessandro Ghedini <al3xbio@gmail.com>
   Date:   Wed Jan 5 14:48:56 2011 +0100
   
     drop varible codes lenght (now fixed to 6)
 
-  commit b25ebe86dc06f10add3f76933020c88c72d76d95
+  commit d6002d57b555034f230fc4214ac29c15f6b54417
   Author: Alessandro Ghedini <al3xbio@gmail.com>
   Date:   Wed Jan 5 14:45:54 2011 +0100
   

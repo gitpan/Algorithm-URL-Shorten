@@ -1,6 +1,6 @@
 package Algorithm::URL::Shorten;
 BEGIN {
-  $Algorithm::URL::Shorten::VERSION = '0.03'; # TRIAL
+  $Algorithm::URL::Shorten::VERSION = '0.03';
 }
 
 use base Exporter;
