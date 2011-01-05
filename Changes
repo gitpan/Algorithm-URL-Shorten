@@ -1,5 +1,53 @@
-Revision history for Algorithm-URL-Shorten
+==============================
+9999-99-99 99:99:99 +0000 HEAD
+==============================
 
-0.01    Date/time
-        First version, released on an unsuspecting world.
+  commit ed8b6166d4426c774fb0ee26b2efe86a49c25141
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Wed Jan 5 14:59:57 2011 +0100
+  
+    bump version
 
+  commit daac8bde9ec50e2fae9c7a21c99fa23294b12046
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Wed Jan 5 14:53:45 2011 +0100
+  
+    update test and pod
+
+  commit 1fb010a3b8d356a4f7def12e24ecd37ae1c40e18
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Wed Jan 5 14:48:56 2011 +0100
+  
+    drop varible codes lenght (now fixed to 6)
+
+  commit b25ebe86dc06f10add3f76933020c88c72d76d95
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Wed Jan 5 14:45:54 2011 +0100
+  
+    switch to Dist::Zilla 
+
+===============================
+2010-11-26 19:56:29 +0100 v0.02
+===============================
+
+  commit 1ce0d82106efb5e86709403ec0a7dfbd229cec64
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Fri Nov 26 19:56:29 2010 +0100
+  
+    bump version
+
+  commit 25640b919b5b1617311bf7590e91ad1e43051084
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Fri Nov 26 19:56:05 2010 +0100
+  
+    add acknowledgment section about incompatibility of v0.02
+
+  commit fd899905190f2544e8a467c01b719527832f1e6c
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Fri Nov 26 19:47:37 2010 +0100
+  
+    fix bug from hardcoded values 
+
+===================================
+End of changes in the last 365 days
+===================================
