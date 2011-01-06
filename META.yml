@@ -18,7 +18,7 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Algorithm-URL-Shorten/
   repository: git://github.com/AlexBio/Algorithm-URL-Shorten.git
-version: 0.03
+version: 0.04
 x_Dist_Zilla:
   plugins:
     -

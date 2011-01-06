@@ -2,6 +2,34 @@
 9999-99-99 99:99:99 +0000 HEAD
 ==============================
 
+  commit 0c1e4f296e9b8fd3d25e50724ed33854ffd271a1
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Thu Jan 6 15:52:09 2011 +0100
+  
+    bump version
+
+  commit cc05c7045986e024e77c0f323cbc7d41269959c9
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Thu Jan 6 16:05:58 2011 +0100
+  
+    fix shorten test
+
+  commit 5a9df2aa47ce01b0c04db133028c815328eb2f1e
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Thu Jan 6 16:04:28 2011 +0100
+  
+    fix SUBROUTINES header in POD
+
+  commit 41dc2783697660fdeae566871d2883439b4fdd4b
+  Author: pmakholm <peter@makholm.net>
+  Date:   Thu Jan 6 15:14:17 2011 +0100
+  
+    Actually do the computation on the input URL 
+
+===============================
+2011-01-05 15:29:49 +0100 v0.03
+===============================
+
   commit 02e3442d2873f9081d0a58e72269cf80d16a03d0
   Author: Alessandro Ghedini <al3xbio@gmail.com>
   Date:   Wed Jan 5 14:59:57 2011 +0100

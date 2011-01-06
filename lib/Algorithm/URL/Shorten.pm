@@ -1,6 +1,6 @@
 package Algorithm::URL::Shorten;
 BEGIN {
-  $Algorithm::URL::Shorten::VERSION = '0.03';
+  $Algorithm::URL::Shorten::VERSION = '0.04';
 }
 
 use base Exporter;
@@ -15,7 +15,7 @@ Algorithm::URL::Shorten - URL shortening algorithm.
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -32,10 +32,10 @@ longer URLs.
 
 This code prints
 
-    zKH5bO
-    eqSbWf
-    ymaay0
-    8rqWn0
+    iqGzim
+    S515va
+    qmKrq8
+    HXv4HD
 
 =head1 DESCRIPTION
 
@@ -54,7 +54,7 @@ The module exports the subroutine 'shorten_url' on request.
 
 our @EXPORT_OK = qw(shorten_url);
 
-=head1 SUBROUTINES/METHODS
+=head1 SUBROUTINES
 
 =head2 shorten_url( $url )
 
@@ -78,7 +78,7 @@ sub shorten_url {
 		     '4', '5', '6', '7', '8', '9');
 
 	my @output;
-	my $hex = md5_hex(shift);
+	my $hex = md5_hex($url);
 
 	for (my $i = 0; $i < length($hex) / 8; $i++) {
 		my $sub_hex = "0x".substr $hex, $i * 8, 8;

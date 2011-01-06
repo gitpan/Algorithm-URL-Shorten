@@ -6,7 +6,7 @@ use Test::More tests => 4;
 
 my $shorts = shorten_url("http://perl.org");
 
-is(@{$shorts}[0], "zKH5bO");
-is(@{$shorts}[1], "eqSbWf");
-is(@{$shorts}[2], "ymaay0");
-is(@{$shorts}[3], "8rqWn0");
+is(@{$shorts}[0], "iqGzim");
+is(@{$shorts}[1], "S515va");
+is(@{$shorts}[2], "qmKrq8");
+is(@{$shorts}[3], "HXv4HD");
