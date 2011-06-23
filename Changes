@@ -2,6 +2,46 @@
 9999-99-99 99:99:99 +0000 HEAD
 ==============================
 
+  commit 3aaf1d6f4fb3cc1f70b942a0da434d71f8cdb7ae
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Thu Jun 23 17:29:52 2011 +0200
+  
+    bump version
+
+  commit 4f22df0c994035db7866da937090585daa343116
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Thu May 5 19:43:42 2011 +0200
+  
+    fix typo
+
+  commit 87211a29909960327467af49d880f0d7dc32e2ae
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Mon Apr 25 18:51:54 2011 +0200
+  
+    use Author::ALEXBIO dzil bundle
+
+  commit 7e78b4d3b16158eff738277159879d41e2851bd8
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Thu Mar 17 19:50:17 2011 +0100
+  
+    purge cruft from docs
+
+  commit a59a1644e922080d3047711e92be3c5125d8f276
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Thu Mar 17 19:50:04 2011 +0100
+  
+    fix email address
+
+  commit 7d1d22dc1bd93e53678066489b4286ee0df8bc58
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date:   Thu Mar 17 19:49:46 2011 +0100
+  
+    use @GitHub plugin bundle 
+
+===============================
+2011-01-06 16:06:12 +0100 v0.04
+===============================
+
   commit 0c1e4f296e9b8fd3d25e50724ed33854ffd271a1
   Author: Alessandro Ghedini <al3xbio@gmail.com>
   Date:   Thu Jan 6 15:52:09 2011 +0100
