@@ -1,6 +1,6 @@
 package Algorithm::URL::Shorten;
-BEGIN {
-  $Algorithm::URL::Shorten::VERSION = '0.05';
+{
+  $Algorithm::URL::Shorten::VERSION = '0.06';
 }
 
 use base Exporter;
@@ -15,7 +15,7 @@ Algorithm::URL::Shorten - URL shortening algorithm.
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 SYNOPSIS
 
@@ -39,16 +39,15 @@ This code prints
 
 =head1 DESCRIPTION
 
-The codes generated with Algorithm::URL::Shorten are unique for every URL,
-so that every time it is used on the same URL, it will generate the same
-codes.
+The codes generated with Algorithm::URL::Shorten are unique for every URL, so
+that every time it is used on the same URL, it will generate the same codes.
 
-The short strings are alphanumeric ASCII ([a-z], [A-Z], and [0-9]) for a
-total of 62 characters, which may be mapped in 62 ^ 6.
+The short strings are alphanumeric ASCII ([a-z,A-Z,0-9]) for a total of 62
+characters, which may be mapped in 62 ^ 6 different codes.
 
 =head1 EXPORT
 
-The module exports the subroutine 'shorten_url' on request.
+The module exports the subroutine C<shorten_url> on request.
 
 =cut
 
@@ -58,8 +57,8 @@ our @EXPORT_OK = qw(shorten_url);
 
 =head2 shorten_url( $url )
 
-This function takes as arguments an URL to shorten, and the desired lenght
-of the shortened values, and returns an array reference containing 4 values.
+This function takes as arguments an URL to shorten, and returns an array
+reference containing 4 strings.
 
 The generated codes will be of six characters long.
 
@@ -110,7 +109,7 @@ Alessandro Ghedini <alexbio@cpan.org>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2010 Alessandro Ghedini.
+Copyright 2011 Alessandro Ghedini.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published

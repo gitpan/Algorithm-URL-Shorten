@@ -9,24 +9,29 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'URL shortening algorithm.',
-  'AUTHOR' => 'Alessandro Ghedini <alexbio@cpan.org>',
-  'BUILD_REQUIRES' => {
-    'Test::More' => '0'
+  "ABSTRACT" => "URL shortening algorithm.",
+  "AUTHOR" => "Alessandro Ghedini <alexbio\@cpan.org>",
+  "BUILD_REQUIRES" => {
+    "File::Find" => 0,
+    "File::Temp" => 0,
+    "Test::More" => 0
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'Algorithm-URL-Shorten',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'Algorithm::URL::Shorten',
-  'PREREQ_PM' => {
-    'Digest::MD5' => '0'
+  "DISTNAME" => "Algorithm-URL-Shorten",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "Algorithm::URL::Shorten",
+  "PREREQ_PM" => {
+    "Digest::MD5" => 0,
+    "base" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
-  'VERSION' => '0.05',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.06",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 

@@ -1,121 +1,75 @@
-==============================
-9999-99-99 99:99:99 +0000 HEAD
-==============================
+==================================================
+Changes from 2011-01-16 00:00:00 +0000 to present.
+==================================================
 
-  commit 3aaf1d6f4fb3cc1f70b942a0da434d71f8cdb7ae
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Thu Jun 23 17:29:52 2011 +0200
-  
-    bump version
+-----------------------------------------
+version 0.06 at 2012-01-16 19:36:06 +0000
+-----------------------------------------
 
-  commit 4f22df0c994035db7866da937090585daa343116
+  Change: 9b3afa6a5f83558965e66a36fe80f408527b333f
   Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Thu May 5 19:43:42 2011 +0200
-  
-    fix typo
+  Date : 2012-01-16 20:35:51 +0000
 
-  commit 87211a29909960327467af49d880f0d7dc32e2ae
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Mon Apr 25 18:51:54 2011 +0200
-  
-    use Author::ALEXBIO dzil bundle
+    bump version 
 
-  commit 7e78b4d3b16158eff738277159879d41e2851bd8
+  Change: 6eb151458a88e63a8880d37d991b4d95026cf526
   Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Thu Mar 17 19:50:17 2011 +0100
-  
-    purge cruft from docs
+  Date : 2012-01-16 20:35:37 +0000
 
-  commit a59a1644e922080d3047711e92be3c5125d8f276
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Thu Mar 17 19:50:04 2011 +0100
-  
-    fix email address
+    more docs fixes 
 
-  commit 7d1d22dc1bd93e53678066489b4286ee0df8bc58
+  Change: 8f5b340a3afc9df730588a71246d2ec21099a979
   Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Thu Mar 17 19:49:46 2011 +0100
-  
+  Date : 2011-09-11 15:27:45 +0000
+
+    remove cruft tests 
+
+  Change: a7d5d6a81b0abab38a8a33eb5754e3007abdd2e8
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-08-04 21:20:25 +0000
+
+    update docs 
+
+-----------------------------------------
+version 0.05 at 2011-06-23 15:29:52 +0000
+-----------------------------------------
+
+  Change: 3aaf1d6f4fb3cc1f70b942a0da434d71f8cdb7ae
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-06-23 17:29:52 +0000
+
+    bump version 
+
+  Change: 4f22df0c994035db7866da937090585daa343116
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-05-05 19:43:42 +0000
+
+    fix typo 
+
+  Change: 87211a29909960327467af49d880f0d7dc32e2ae
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-04-25 18:51:54 +0000
+
+    use Author::ALEXBIO dzil bundle 
+
+  Change: 7e78b4d3b16158eff738277159879d41e2851bd8
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-03-17 19:50:17 +0000
+
+    purge cruft from docs 
+
+  Change: a59a1644e922080d3047711e92be3c5125d8f276
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-03-17 19:50:04 +0000
+
+    fix email address 
+
+  Change: 7d1d22dc1bd93e53678066489b4286ee0df8bc58
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-03-17 19:49:46 +0000
+
     use @GitHub plugin bundle 
 
-===============================
-2011-01-06 16:06:12 +0100 v0.04
-===============================
-
-  commit 0c1e4f296e9b8fd3d25e50724ed33854ffd271a1
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Thu Jan 6 15:52:09 2011 +0100
-  
-    bump version
-
-  commit cc05c7045986e024e77c0f323cbc7d41269959c9
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Thu Jan 6 16:05:58 2011 +0100
-  
-    fix shorten test
-
-  commit 5a9df2aa47ce01b0c04db133028c815328eb2f1e
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Thu Jan 6 16:04:28 2011 +0100
-  
-    fix SUBROUTINES header in POD
-
-  commit 41dc2783697660fdeae566871d2883439b4fdd4b
-  Author: pmakholm <peter@makholm.net>
-  Date:   Thu Jan 6 15:14:17 2011 +0100
-  
-    Actually do the computation on the input URL 
-
-===============================
-2011-01-05 15:29:49 +0100 v0.03
-===============================
-
-  commit 02e3442d2873f9081d0a58e72269cf80d16a03d0
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Wed Jan 5 14:59:57 2011 +0100
-  
-    bump version
-
-  commit 2f06a2b73de50bbdc2947171243a21bc5a30d9ce
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Wed Jan 5 14:53:45 2011 +0100
-  
-    update test and pod
-
-  commit 008eca5c76e50047150f0460fbbaab51b3f6e99a
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Wed Jan 5 14:48:56 2011 +0100
-  
-    drop varible codes lenght (now fixed to 6)
-
-  commit d6002d57b555034f230fc4214ac29c15f6b54417
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Wed Jan 5 14:45:54 2011 +0100
-  
-    switch to Dist::Zilla 
-
-===============================
-2010-11-26 19:56:29 +0100 v0.02
-===============================
-
-  commit 1ce0d82106efb5e86709403ec0a7dfbd229cec64
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Fri Nov 26 19:56:29 2010 +0100
-  
-    bump version
-
-  commit 25640b919b5b1617311bf7590e91ad1e43051084
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Fri Nov 26 19:56:05 2010 +0100
-  
-    add acknowledgment section about incompatibility of v0.02
-
-  commit fd899905190f2544e8a467c01b719527832f1e6c
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date:   Fri Nov 26 19:47:37 2010 +0100
-  
-    fix bug from hardcoded values 
-
-===================================
-End of changes in the last 365 days
-===================================
+================================================
+Plus 4 releases after 2011-01-16 00:00:00 +0000.
+================================================
