@@ -1,9 +1,25 @@
 ==================================================
-Changes from 2011-01-16 00:00:00 +0000 to present.
+Changes from 2011-07-08 00:00:00 +0000 to present.
 ==================================================
 
 -----------------------------------------
-version 0.06 at 2012-01-16 19:36:06 +0000
+version 0.07 at 2012-07-07 12:03:32 +0000
+-----------------------------------------
+
+  Change: 6a46a4a2cf54a7137b4c72256bf07fa74b07ab7f
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2012-07-07 13:47:32 +0000
+
+    dist.ini: update repository name 
+
+  Change: 72cf99c6cfd2126cbb4f020956f5f0bfa5469672
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2012-03-29 13:13:27 +0000
+
+    use git::nextversion plugin 
+
+-----------------------------------------
+version 0.06 at 2012-01-16 19:35:51 +0000
 -----------------------------------------
 
   Change: 9b3afa6a5f83558965e66a36fe80f408527b333f
@@ -30,46 +46,6 @@ version 0.06 at 2012-01-16 19:36:06 +0000
 
     update docs 
 
------------------------------------------
-version 0.05 at 2011-06-23 15:29:52 +0000
------------------------------------------
-
-  Change: 3aaf1d6f4fb3cc1f70b942a0da434d71f8cdb7ae
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2011-06-23 17:29:52 +0000
-
-    bump version 
-
-  Change: 4f22df0c994035db7866da937090585daa343116
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2011-05-05 19:43:42 +0000
-
-    fix typo 
-
-  Change: 87211a29909960327467af49d880f0d7dc32e2ae
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2011-04-25 18:51:54 +0000
-
-    use Author::ALEXBIO dzil bundle 
-
-  Change: 7e78b4d3b16158eff738277159879d41e2851bd8
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2011-03-17 19:50:17 +0000
-
-    purge cruft from docs 
-
-  Change: a59a1644e922080d3047711e92be3c5125d8f276
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2011-03-17 19:50:04 +0000
-
-    fix email address 
-
-  Change: 7d1d22dc1bd93e53678066489b4286ee0df8bc58
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2011-03-17 19:49:46 +0000
-
-    use @GitHub plugin bundle 
-
 ================================================
-Plus 4 releases after 2011-01-16 00:00:00 +0000.
+Plus 5 releases after 2011-07-08 00:00:00 +0000.
 ================================================

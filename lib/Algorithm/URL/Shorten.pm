@@ -1,6 +1,6 @@
 package Algorithm::URL::Shorten;
 {
-  $Algorithm::URL::Shorten::VERSION = '0.06';
+  $Algorithm::URL::Shorten::VERSION = '0.07';
 }
 
 use base Exporter;
@@ -15,7 +15,7 @@ Algorithm::URL::Shorten - URL shortening algorithm.
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 SYNOPSIS
 
