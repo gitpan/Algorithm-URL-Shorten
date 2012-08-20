@@ -1,21 +1,24 @@
 package Algorithm::URL::Shorten;
 {
-  $Algorithm::URL::Shorten::VERSION = '0.07';
+  $Algorithm::URL::Shorten::VERSION = '0.08';
 }
-
-use base Exporter;
-use Digest::MD5 qw(md5_hex);
 
 use strict;
 use warnings;
 
+use Digest::MD5 qw(md5_hex);
+
+require Exporter;
+
+our @ISA = qw(Exporter);
+
 =head1 NAME
 
-Algorithm::URL::Shorten - URL shortening algorithm.
+Algorithm::URL::Shorten - URL shortening algorithm
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 SYNOPSIS
 

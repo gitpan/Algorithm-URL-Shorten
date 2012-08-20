@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "URL shortening algorithm.",
+  "ABSTRACT" => "URL shortening algorithm",
   "AUTHOR" => "Alessandro Ghedini <alexbio\@cpan.org>",
   "BUILD_REQUIRES" => {
     "File::Find" => 0,
@@ -25,11 +25,11 @@ my %WriteMakefileArgs = (
   "NAME" => "Algorithm::URL::Shorten",
   "PREREQ_PM" => {
     "Digest::MD5" => 0,
-    "base" => 0,
+    "Exporter" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.07",
+  "VERSION" => "0.08",
   "test" => {
     "TESTS" => "t/*.t"
   }
