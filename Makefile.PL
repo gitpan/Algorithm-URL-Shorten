@@ -25,11 +25,11 @@ my %WriteMakefileArgs = (
   "NAME" => "Algorithm::URL::Shorten",
   "PREREQ_PM" => {
     "Digest::MD5" => 0,
-    "Exporter" => 0,
+    "Exporter" => "5.57",
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.08",
+  "VERSION" => "0.09",
   "test" => {
     "TESTS" => "t/*.t"
   }

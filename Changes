@@ -1,67 +1,45 @@
-==================================================
-Changes from 2011-08-21 00:00:00 +0000 to present.
-==================================================
+Revision history for Algorithm-URL-Shorten
 
------------------------------------------
-version 0.08 at 2012-08-20 08:35:31 +0000
------------------------------------------
+0.09      2012-09-19 12:03:45 Europe/Rome
 
-  Change: 318991a527547670bc27f5035b308b43de555565
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2012-08-20 10:35:09 +0000
+ - Refactoring to improve speed (GH#2) (thanks, DOLMEN!):
+   + Move @CHARS as a constant out of the sub
+   + Avoid generating hex only to parse it just after
+   + Modern usage of Exporter
+   + Use is_deeply in tests + more tests
+ - Add a proper Changes file
 
-    Shorten.pm: re-order uses (just cosmetics) 
+0.08      2012-08-20 08:35:41 Europe/Rome
 
-  Change: ab6650ea139884533e01bf1dd222f339282d24b5
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2012-07-23 20:23:03 +0000
+ - Rebuild to update META.* repository links (no functional changes)
 
-    Shorten.pm: remove final dot in short description 
+0.07      2012-07-07 12:04:05 Europe/Rome
 
------------------------------------------
-version 0.07 at 2012-07-07 11:47:32 +0000
------------------------------------------
+ - Rebuild to update META.* repository links (no functional changes)
 
-  Change: 6a46a4a2cf54a7137b4c72256bf07fa74b07ab7f
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2012-07-07 13:47:32 +0000
+0.06      2012-01-16 19:36:19 Europe/Rome
 
-    dist.ini: update repository name 
+ - Documentation fixes (no functional changes)
 
-  Change: 72cf99c6cfd2126cbb4f020956f5f0bfa5469672
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2012-03-29 13:13:27 +0000
+0.05      2011-06-23 15:32:14 Europe/Rome
 
-    use git::nextversion plugin 
+ - Documentation fixes (no functional changes)
 
------------------------------------------
-version 0.06 at 2012-01-16 19:35:51 +0000
------------------------------------------
+0.04      2011-01-06 15:06:27 Europe/Rome
 
-  Change: 9b3afa6a5f83558965e66a36fe80f408527b333f
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2012-01-16 20:35:51 +0000
+ - Actually do the computation on the input URL
+ - Documentation fixes (no functional changes)
 
-    bump version 
+0.03      2011-01-05 14:30:01 Europe/Rome
 
-  Change: 6eb151458a88e63a8880d37d991b4d95026cf526
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2012-01-16 20:35:37 +0000
+ - Drop varible codes lenght (now fixed to 6)
+ - Documentation fixes (no functional changes)
 
-    more docs fixes 
+0.02      2011-01-05 13:45:16 Europe/Rome
 
-  Change: 8f5b340a3afc9df730588a71246d2ec21099a979
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2011-09-11 15:27:45 +0000
+ - Fix bug caused by hardcoded values (incompatible change)
+   + Add POD acknowledgment section about the incompatibilities
 
-    remove cruft tests 
+0.01      2010-08-22 12:48:42 Europe/Rome
 
-  Change: a7d5d6a81b0abab38a8a33eb5754e3007abdd2e8
-  Author: Alessandro Ghedini <al3xbio@gmail.com>
-  Date : 2011-08-04 21:20:25 +0000
-
-    update docs 
-
-================================================
-Plus 5 releases after 2011-08-21 00:00:00 +0000.
-================================================
+ - Initial version
